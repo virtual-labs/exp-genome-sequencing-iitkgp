@@ -7,13 +7,13 @@ Whole-genome sequencing (WGS) is a comprehensive method for analyzing entire gen
 ### Types of genome sequencing
 There are multiple methods of genome sequencing. One of the oldest yet most important type of genome or gene sequencing is Sanger sequencing, developed by Sanger and Coulson in 1975, which became the gold standard for over a decade. Sanger won the Nobel Prize for his pioneering DNA sequencing method in 1980. Nowadays, we have highly efficient next-generation sequencing (NGS) technologies. This enables faster and more cost-effective sequencing, revolutionizing genomics research and applications.
 
-#### a **Sanger Sequencing:** 
+#### a. **Sanger Sequencing:** 
 This method of sequencing was discovered by Sanger and Coulson in 1975. It is a chain termination DNA sequencing technology that utilities dideoxy nucleotides. In Sanger dideoxy DNA sequencing, a DNA- dependent polymerase is used to generate a complimentary copy of a single-stranded DNA template. technology utilizes the fact that DNA polymerases will incorporate a chain-terminating 2′,3′- dideoxynucleotide monophosphate (ddNMP) at the appropriate complementary position but synthesis will be stopped by the incorporation of the ddNMPs at the 3′ end because the next nucleotide to be added lacks the required 3′ hydroxyl group for dNMP phosphodiester bond formation. Four reactions, containing template, polymerase, all four dNTPs, and primer, are set up to generate a continuing series of synthesis products that reflects each potential chain termination position. In addition, each reaction also contains one of the four radioactively/fluorescently labeled ddNTPs at a specific ratio reflecting the relative probability of incorporation. Many terminated strands of different lengths exist within each of the four reactions. As each reaction contains only one ddNTP species, a set of different-length fragments is generated in each reaction, terminated at all of the positions corresponding to one of the four nucleotides in the template sequence. The four reactions are then individually separated on a large denaturing polyacrylamide gel to yield single nucleotide resolution. The pattern of bands across the four lanes allows direct readout of the primary sequence of the template under analysis.
 
 <img>
 <p>Fig 1: Steps in Sanger Sequencing (Source: [https://www.biotechreality.com/2024/10/sanger-sequencing-steps-and-process.html](https://www.biotechreality.com/2024/10/sanger-sequencing-steps-and-process.html)). Used for academic purpose.</p>
 
-#### b **Illumina Next Generation Sequencing** 
+#### b. **Illumina Next Generation Sequencing** 
 Illumina sequencing, one of the most popular technique of next-generation sequencing (NGS), uses sequencing-by-synthesis (SBS) chemistry to identify DNA bases. It is a high-throughput method that sequences multiple DNA fragments in parallel [2, 3, 4]. It enables rapid, accurate, and cost-effective sequencing of DNA and RNA for applications in genomics, transcriptomics, and epigenomics. In this method
 DNA polymerase incorporates fluorescently labeled nucleotides one at a time. The fluorescence signal is recorded at each cycle, enabling base-by-base sequencing of DNA fragments.
 
@@ -28,7 +28,7 @@ DNA polymerase incorporates fluorescently labeled nucleotides one at a time. The
 **Short Read Lengths** – Typically up to 300 bp (paired-end), limiting assembly of highly repetitive regions.
 **Relatively Long Turnaround Time** – Compared to real-time sequencing methods (e.g., Oxford Nanopore).
 
-#### c **Third-Generation Sequencing** Long-read sequencing technologies such as PacBio (Pacific Biosciences) and Oxford Nanopore.
+#### c. **Third-Generation Sequencing** Long-read sequencing technologies such as PacBio (Pacific Biosciences) and Oxford Nanopore.
 
 **PacBio Sequencing:** PacBio sequencing, also known as Single Molecule Real-Time (SMRT) sequencing, is a third-generation sequencing technology that uses Zero-Mode Waveguide (ZMW) technology to generate long, highly accurate reads for DNA sequencing, enabling comprehensive analysis of genomes, transcriptomes, and epigenomes [5, 6, 7,].
 
