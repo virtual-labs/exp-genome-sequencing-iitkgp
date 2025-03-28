@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Which of the following best describes a genome?",
+      "question": "1. Which of the following best describes a genome?",
       "answers": {
         "a": "A single gene of an organism",
         "b": "The entire set of genetic material in an organism",
@@ -14,7 +14,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is an exon?",
+      "question": "2. What is an exon?",
       "answers": {
         "a": "A non-coding region of a gene",
         "b": "A coding region of a gene",
@@ -26,7 +26,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is the primary goal of genome sequencing?",
+      "question": "3. What is the primary goal of genome sequencing?",
       "answers": {
         "a": "To determine the entire DNA sequence of an organism",
         "b": "To amplify specific genes",
@@ -38,7 +38,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "In eukaryotic cells, where is the genome primarily located?",
+      "question": "4. In eukaryotic cells, where is the genome primarily located?",
       "answers": {
         "a": "Cytoplasm",
         "b": "Mitochondria",
@@ -50,7 +50,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which field of study combines biology, computer science, and statistics to analyze genomic data?",
+      "question": "5. Which field of study combines biology, computer science, and statistics to analyze genomic data?",
       "answers": {
         "a": "Biophysics",
         "b": "Bioinformatics",
