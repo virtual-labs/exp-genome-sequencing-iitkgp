@@ -10,8 +10,10 @@ There are multiple methods of genome sequencing. One of the oldest yet most impo
 #### a. **Sanger Sequencing:** 
 This method of sequencing was discovered by Sanger and Coulson in 1975. It is a chain termination DNA sequencing technology that utilities dideoxy nucleotides. In Sanger dideoxy DNA sequencing, a DNA- dependent polymerase is used to generate a complimentary copy of a single-stranded DNA template. technology utilizes the fact that DNA polymerases will incorporate a chain-terminating 2′,3′- dideoxynucleotide monophosphate (ddNMP) at the appropriate complementary position but synthesis will be stopped by the incorporation of the ddNMPs at the 3′ end because the next nucleotide to be added lacks the required 3′ hydroxyl group for dNMP phosphodiester bond formation. Four reactions, containing template, polymerase, all four dNTPs, and primer, are set up to generate a continuing series of synthesis products that reflects each potential chain termination position. In addition, each reaction also contains one of the four radioactively/fluorescently labeled ddNTPs at a specific ratio reflecting the relative probability of incorporation. Many terminated strands of different lengths exist within each of the four reactions. As each reaction contains only one ddNTP species, a set of different-length fragments is generated in each reaction, terminated at all of the positions corresponding to one of the four nucleotides in the template sequence. The four reactions are then individually separated on a large denaturing polyacrylamide gel to yield single nucleotide resolution. The pattern of bands across the four lanes allows direct readout of the primary sequence of the template under analysis.
 
-<img>
+<div align="center">
+<img src="images/Theory Figure 1.jpg" width="50%">
 <p>Fig 1: Steps in Sanger Sequencing (Source: [https://www.biotechreality.com/2024/10/sanger-sequencing-steps-and-process.html](https://www.biotechreality.com/2024/10/sanger-sequencing-steps-and-process.html)). Used for academic purpose.</p>
+</div>
 
 #### b. **Illumina Next Generation Sequencing** 
 Illumina sequencing, one of the most popular technique of next-generation sequencing (NGS), uses sequencing-by-synthesis (SBS) chemistry to identify DNA bases. It is a high-throughput method that sequences multiple DNA fragments in parallel [2, 3, 4]. It enables rapid, accurate, and cost-effective sequencing of DNA and RNA for applications in genomics, transcriptomics, and epigenomics. In this method
@@ -60,7 +62,8 @@ Nanopore sequencing possesses the capability to provide cost-effective genotypin
 - These current changes are detected and converted into a sequence of bases (A, T, C, G). [14]
 
 
-<img>
+<div align="center">
+<img src="images/Theory Figure 2.jpg" width="50%">
 <p>Fig 2: Nanopore Sequencing (Source: [https://www.yourgenome.org/theme/what-is-oxford-nanopore-technology-ont-sequencing/](https://www.yourgenome.org/theme/what-is-oxford-nanopore-technology-ont-sequencing/). Used for academic purpose</p>
 
 #### Advantages of Nanopore Sequencing: 

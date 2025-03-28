@@ -1,13 +1,149 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Add CSS at the head of HTML file -->
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<!-- Your code goes here-->
+	<div class="container-fluid p-2 mt-2 ">
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Instructions
+
+					</div>
+
+					<div class="card-body">
+						<ol id="inst1">
+
+
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Equipment required
+
+					</div>
+
+					<div class="card-body">
+						<!--div class="table-responsive"-->
+						<table class="table table-bordered">
+							<tr>
+								<td>
+									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Scissors</button>
+									<button class="btn btn-info " type="button" id="corki" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										n<sub>2</sub></button>
+									<button class="btn btn-info " type="button" id="pdishi" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Motor pestle</button>
+									<button class="btn btn-info " type="button" id="beakeri" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Beaker</button>
+									
+
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<!--button class="btn btn-success " type="button" id="start" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Start the Experiment</button-->
+									<button class="btn btn-warning " style="float:right;" type="button" id="restart"
+										onclick="restartexp()">
+										Re-Do the Experiment</button>
+								</td>
+							</tr>
+
+
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row ">
+			<div class="col-md-8">
+				<div class="card card-body border border-0">
+					<img src="./images/1.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Rice" id="ricecss">
+
+					<img src="./images/2.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Scissors" id="bladecss">
+
+					<img src="./images/3.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Leaf" id="petridishcss">
+
+						<img src="./images/4.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="N2" id="brushcss">
+					<img src="./images/5.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Motor pestle" id="forcepcss">
+					<img src="./images/6.jpg" class="img-fluid" data-toggle="tooltip"
+						data-placement="bottom" title="Forcep" id="pickforcepcss">
+
+					<img src="./images/7.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Bowl" id="coverslipcss">
+
+					<img src="./images/8.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="" id="glassslidecss">
+
+					<img src="./images/9.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="" id="beakercss">
+
+						
+					<img src="./images/10.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="" id="droppercss">
+					<img src="./images/11.jpg" class="img-fluid" id="dropperwatercss">
+
+
+					
+					<img src="./images/12.jpg" class="img-fluid" id="petridishwatercss">
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card card-body border border-0">
+					<img src="./images/12.jpg" class="img-fluid" id="petridishwatercss">
+					<img src="./images/13.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="" id="mircoscopecss">
+						<!--img src="./images/lab_person.png" class="img-fluid" id="labpersoncss"-->
+					<img src="./images/14.jpg" class="img-fluid" data-toggle="tooltip"
+						data-placement="bottom" title="" id="mircoscopeslidecss">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+	<!-- Add JS at the bottom of HTML file -->
+	<script src="./js/main.js"></script>
+	<script>
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip(
+				{
+					placement: 'bottom'
+				}
+			);
+		})
+
+	</script>
 </body>
+
 </html>
