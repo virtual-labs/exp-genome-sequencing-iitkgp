@@ -18,7 +18,9 @@
 				<div class="card">
 					<div class="card-header fs-5 fw-bold">
 						Instructions
-
+						<button class="btn btn-warning " style="float:right;" type="button" id="restart"
+						onclick="restartexp()">
+						Re-Do the Experiment</button>
 					</div>
 
 					<div class="card-body">
@@ -31,7 +33,7 @@
 			</div>
 		</div>
 
-		<div class="row ">
+		<!--div class="row ">
 			<div class="col-md-12">
 				<div class="card">
 					<div class="card-header fs-5 fw-bold">
@@ -40,31 +42,29 @@
 					</div>
 
 					<div class="card-body">
-						<!--div class="table-responsive"-->
+						
 						<table class="table table-bordered">
 							<tr>
 								<td>
-									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+									<button class="btn btn-info " type="button" id="scissorbtn" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
 										Scissors</button>
-									<button class="btn btn-info " type="button" id="corki" data-bs-toggle="modal"
+									<button class="btn btn-info " type="button" id="nitrogenbtn" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
 										n<sub>2</sub></button>
-									<button class="btn btn-info " type="button" id="pdishi" data-bs-toggle="modal"
+									<button class="btn btn-info " type="button" id="motorpestlebtn" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
 										Motor pestle</button>
-									<button class="btn btn-info " type="button" id="beakeri" data-bs-toggle="modal"
+									<button class="btn btn-info " type="button" id="bowlbtn" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
-										Beaker</button>
+										Bowl</button>
 									
 
 								</td>
 							</tr>
 							<tr>
 								<td colspan="2">
-									<!--button class="btn btn-success " type="button" id="start" data-bs-toggle="modal"
-										data-bs-target="#exampleModal">
-										Start the Experiment</button-->
+									
 									<button class="btn btn-warning " style="float:right;" type="button" id="restart"
 										onclick="restartexp()">
 										Re-Do the Experiment</button>
@@ -76,54 +76,59 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div-->
 		<div class="row ">
-			<div class="col-md-8">
-				<div class="card card-body border border-0">
-					<img src="./images/1.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Rice" id="ricecss">
+			<div class="col-md-12">
+				<div class="card card-body border border-1">
+					<img src="./images/1.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Plant" id="plantcss">
 
-					<img src="./images/2.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Scissors" id="bladecss">
+					<img src="./images/2.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Scissors" id="scissorscss">
 
-					<img src="./images/3.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Leaf" id="petridishcss">
+					<img src="./images/3.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Leaf" id="leafcss">
 
-						<img src="./images/4.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="N2" id="brushcss">
-					<img src="./images/5.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Motor pestle" id="forcepcss">
-					<img src="./images/6.jpg" class="img-fluid" data-toggle="tooltip"
-						data-placement="bottom" title="Forcep" id="pickforcepcss">
+						<img src="./images/4.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="N2" id="n2bottlecss">
+					<img src="./images/5.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Motor pestle" id="motorpestlecss">
+					<img src="./images/6.png" class="img-fluid" data-toggle="tooltip"
+						data-placement="bottom" title="Fine powder containing cell lysate " id="powderbowlcss">
 
-					<img src="./images/7.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Bowl" id="coverslipcss">
+					<img src="./images/7.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="DNA extraction buffer" id="dnabuffercss">
 
-					<img src="./images/8.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="" id="glassslidecss">
+					<img src="./images/8.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Extracted DNA in pellet form" id="dnapelletcss">
 
-					<img src="./images/9.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="" id="beakercss">
-
-						
-					<img src="./images/10.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="" id="droppercss">
-					<img src="./images/11.jpg" class="img-fluid" id="dropperwatercss">
-
+					<img src="./images/9.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="TE buffer" id="tebuffercss">
+	
+					
 
 					
-					<img src="./images/12.jpg" class="img-fluid" id="petridishwatercss">
+					
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="card card-body border border-1">
+					<img src="./images/10.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="DNA fragmentation" id="dnafragmentcss">
+					<img src="./images/11.png" class="img-fluid"  id="adaptersdnafragmentcss">
+
 				</div>
 			</div>
 
-			<div class="col-md-4">
-				<div class="card card-body border border-0">
-					<img src="./images/12.jpg" class="img-fluid" id="petridishwatercss">
-					<img src="./images/13.jpg" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="" id="mircoscopecss">
+			<div class="col-md-12">
+				<div class="card card-body border border-1">
+					<img src="./images/12.png" class="img-fluid" id="seqplatformcss" data-toggle="tooltip" data-placement="bottom"
+					title="Illumina Sequencing Platform" >
+					<img src="./images/13.png" class="img-fluid"  data-toggle="tooltip" data-placement="bottom"
+						title="Raw data generated" id="rawdatacss">
 						<!--img src="./images/lab_person.png" class="img-fluid" id="labpersoncss"-->
 					<img src="./images/14.jpg" class="img-fluid" data-toggle="tooltip"
-						data-placement="bottom" title="" id="mircoscopeslidecss">
+						data-placement="bottom" title="Filtered and Processed data for analysis" id="filtereddatacss">
 				</div>
 			</div>
 		</div>
