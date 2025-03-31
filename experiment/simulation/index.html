@@ -25,7 +25,14 @@
 
 					<div class="card-body">
 						<ol id="inst1">
-
+<li>Click on the Scissor. Click again to cut the leaf.</li>
+<li>Click on the leaf. Next click on the Liquid nitrogen bottle. Fine powder generated after crushing the leaf with liquid Nitrogen in the morter pestle. This powder contains the cell lysate.</li>
+<li>Click on the crushed powder bowl. The powder is resuspended into the DNA extraction buffer</li>
+<li>Click on the buffer bottle. Extracted DNA in pellet form. </li>
+<li> Click on the tube. The extracted DNA dissolved in TE Buffer</li>
+<li>Click on the TE Buffer tube, to display the DNA fragmentation. </li>
+<li>Click on the DNA fragmented using Restriction Enzymes, adapters ligated at both ends of the DNA fragments </li>
+<li> Click on the ligand DNA fragments to view in Illumina Sequencing Platform, where raw data is generate, filtered and processed Data for analysis </li>
 
 						</ol>
 					</div>
@@ -79,12 +86,14 @@
 		</div-->
 		<div class="row ">
 			<div class="col-md-12">
-				<div class="card card-body border border-1">
+				<div class="card card-body border border-0">
 					<img src="./images/1.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="Plant" id="plantcss">
+						<img src="./images/1_cutleaf.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Plant" id="plantcutcss">
 
 					<img src="./images/2.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Scissors" id="scissorscss">
+						title="Scissor" id="scissorscss" onclick="scissorjsclick()">
 
 					<img src="./images/3.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="Leaf" id="leafcss">
@@ -112,7 +121,7 @@
 				</div>
 			</div>
 			<div class="col-md-12">
-				<div class="card card-body border border-1">
+				<div class="card card-body border border-0">
 					<img src="./images/10.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="DNA fragmentation" id="dnafragmentcss">
 					<img src="./images/11.png" class="img-fluid"  id="adaptersdnafragmentcss">
@@ -121,7 +130,7 @@
 			</div>
 
 			<div class="col-md-12">
-				<div class="card card-body border border-1">
+				<div class="card card-body border border-0">
 					<img src="./images/12.png" class="img-fluid" id="seqplatformcss" data-toggle="tooltip" data-placement="bottom"
 					title="Illumina Sequencing Platform" >
 					<img src="./images/13.png" class="img-fluid"  data-toggle="tooltip" data-placement="bottom"

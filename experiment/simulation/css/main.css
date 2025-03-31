@@ -13,6 +13,16 @@
     height:30%;
     display: block;
 }
+#plantcutcss {
+    cursor: pointer;
+    position: relative;
+    top: 85%;
+    left:0%;
+    z-index: 1;
+    width: 30%;
+    height:30%;
+    display: none;
+}
 
 
 #scissorscss {
@@ -32,8 +42,8 @@
     top:18%;
     left:25%;
     width: 5%;
-    z-index: 1;
-    display: block;
+    z-index: 2;
+    display: none;
     
 }
 
@@ -56,7 +66,7 @@
     width:15%;
     height:20%;
     display: block;
-    z-index: 10;
+    
     cursor: pointer;
    
 }
@@ -69,7 +79,7 @@
     width:15%;
     height:20%;
     cursor: pointer; /* stem outline 2D7600 */
-    display: block;
+    display: none;
     z-index: 3;
 }
 
@@ -80,7 +90,7 @@
     width:10%;
     height:35%;
     cursor: pointer; /* stem outline 2D7600 */
-    display: block;
+    display: none;
 }
 
 #dnapelletcss {
@@ -90,7 +100,7 @@
     width: 20%;
     height:35%;
     cursor: pointer;
-    display: block;
+    display: none;
     
     
 }
@@ -102,7 +112,7 @@
     top:50%;
     left:55%;
     background-color: #fdfdfd;
-    display: block;
+    display: none;
     width: 8%;
     height:27%;
     z-index: 0;
@@ -118,7 +128,7 @@
     left:10%;
     width: 30%;
     cursor: pointer;
-    display: block;
+    display: none;
     z-index: 2;
 }
 
@@ -128,7 +138,7 @@
     left:60%;
     width: 30%;
     cursor: pointer;
-    display: block;
+    display: none;
     z-index: 2
 }
 
@@ -138,7 +148,7 @@
     left:1%;
     width: 30%;
     cursor: pointer;
-    display: block;
+    display: none;
     z-index: 2;
 }
 
@@ -148,7 +158,7 @@
     left:35%;
     width:30%;
     cursor: pointer;
-    display: block;
+    display: none;
 }
 
 
@@ -159,6 +169,6 @@
     left:68%;
     width: 30%;
     cursor: pointer;
-    display: block;
+    display: none;
 }
 
