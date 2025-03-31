@@ -2,37 +2,63 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Which sequencing method was first used to determine the complete genome of an organism?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Requires less computational power",
+        "b": "Sanger Sequencing",
+        "c": "CRISPR Sequencing",
+        "d": "Nanopore Sequencing"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. What is the main advantage of Next-Generation Sequencing (NGS) over Sanger Sequencing?",
+      "answers": {
+        "a": "Higher accuracy",
+        "b": "Faster and higher throughput",
+        "c": "Uses less complex machinery",
+        "d": "Requires less computational power"
       },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which of the following technologies is used in third-generation sequencing?",
+      "answers": {
+        "a": "Nanopore sequencing",
+        "b": "Sanger sequencing",
+        "c": "Microarray analysis",
+        "d": "Polymerase chain reaction (PCR)"
+      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "4. Which of the following is the first plant to have its genome completely sequenced?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "<i>Oryzae sativa</i>",
+        "b": "<i>Oryzae sativa</i>",
+        "c": "<i>Zea mays</i>",
+        "d": "<i>Solanum lycopersicum</i>"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Which of the following sequencing methods is best suited for long-read sequencing?",
+      "answers": {
+        "a": "Illumina sequencing",
+        "b": "PacBio sequencing",
+        "c": "Sanger sequencing",
+        "d": "Sanger sequencing"
       },
-      "correctAnswer": "c",
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
