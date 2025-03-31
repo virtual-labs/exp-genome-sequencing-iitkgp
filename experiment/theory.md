@@ -65,6 +65,7 @@ Nanopore sequencing possesses the capability to provide cost-effective genotypin
 <div align="center">
 <img src="images/Theory Figure 2.jpg" width="70%">
 <p>Fig 2: Nanopore Sequencing (Source: [https://www.yourgenome.org/theme/what-is-oxford-nanopore-technology-ont-sequencing/](https://www.yourgenome.org/theme/what-is-oxford-nanopore-technology-ont-sequencing/)). Used for academic purpose</p>
+</div>
 
 #### Advantages of Nanopore Sequencing: 
 - Ultra-long read lengths: Nanopore sequencing can produce reads that are much longer than those from other sequencing technologies, allowing for the analysis of larger genomic regions. [17, 18]
