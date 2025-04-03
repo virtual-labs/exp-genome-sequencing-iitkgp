@@ -52,37 +52,45 @@ setTimeout(crushedpowder, 500);
 }
 
 function showdnabufferclick(){
+    document.getElementById("arrow3css").style.display="block";
     document.getElementById("dnabuffercss").style.display="block";
-    document.getElementById("powderbowlcss").style.display="none";
+    document.getElementById("powderbowlcss").style.display="block";
     document.getElementById("dnabuffercss").setAttribute("onclick", "showextracteddnaclick()" );
 }
 
 function showextracteddnaclick(){
-    document.getElementById("dnabuffercss").style.display="none";
+    document.getElementById("arrow2css").style.display="block";
+    document.getElementById("dnabuffercss").style.display="block";
     document.getElementById("dnapelletcss").style.display="block";
     document.getElementById("dnapelletcss").setAttribute("onclick", "showtebuffercssclick()" );
 }
 
 function showtebuffercssclick(){
+    document.getElementById("arrow1css").style.display="block";
     document.getElementById("tebuffercss").style.display="block";
-    document.getElementById("dnapelletcss").style.display="none";
+    document.getElementById("dnapelletcss").style.display="block";
     document.getElementById("tebuffercss").setAttribute("onclick", "showdnafragmentclick()" );
 
 }
 
 function showdnafragmentclick(){
-    document.getElementById("tebuffercss").style.display="none";
+    document.getElementById("arrowcss").style.display="block";
+    document.getElementById("tebuffercss").style.display="block";
     document.getElementById("dnafragmentcss").style.display="block";
     document.getElementById("dnafragmentcss").setAttribute("onclick", "showadaptersdnafragmentclick()" );
 }
 
 function showadaptersdnafragmentclick(){
+    document.getElementById("arrow4css").style.display="block";
     document.getElementById("dnafragmentcss").style.display="block";
     document.getElementById("adaptersdnafragmentcss").style.display="block";
     document.getElementById("adaptersdnafragmentcss").setAttribute("onclick", "showailluminusseqclick()" );
 }
 
 function showailluminusseqclick(){
+    document.getElementById("arrow5css").style.display="block";
+    document.getElementById("arrowbcss").style.display="block";
+    document.getElementById("arrowccss").style.display="block";
     document.getElementById("seqplatformcss").style.display="block";
     document.getElementById("rawdatacss").style.display="block";
     document.getElementById("filtereddatacss").style.display="block";
