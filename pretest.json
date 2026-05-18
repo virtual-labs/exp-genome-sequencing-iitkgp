@@ -1,0 +1,66 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Which of the following best describes a genome?",
+      "answers": {
+        "a": "A single gene of an organism",
+        "b": "The entire set of genetic material in an organism",
+        "c": "Only the protein-coding regions of DNA",
+        "d": "The collection of all RNA molecules in a cell"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. What is an exon?",
+      "answers": {
+        "a": "A non-coding region of a gene",
+        "b": "A coding region of a gene",
+        "c": "A type of RNA",
+        "d": "A type of DNA polymerase"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What is the primary goal of genome sequencing?",
+      "answers": {
+        "a": "To determine the entire DNA sequence of an organism",
+        "b": "To amplify specific genes",
+        "c": "To clone genes into plasmids",
+        "d": "To mutate specific genes"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. In eukaryotic cells, where is the genome primarily located?",
+      "answers": {
+        "a": "Cytoplasm",
+        "b": "Mitochondria",
+        "c": "Nucleus",
+        "d": "Ribosome"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Which field of study combines biology, computer science, and statistics to analyze genomic data?",
+      "answers": {
+        "a": "Biophysics",
+        "b": "Bioinformatics",
+        "c": "Pharmacology",
+        "d": "Epidemiology"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+
+  ]
+}
