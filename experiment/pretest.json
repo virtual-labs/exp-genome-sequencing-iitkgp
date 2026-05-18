@@ -2,38 +2,65 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Which of the following best describes a genome?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A single gene of an organism",
+        "b": "The entire set of genetic material in an organism",
+        "c": "Only the protein-coding regions of DNA",
+        "d": "The collection of all RNA molecules in a cell"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. What is an exon?",
+      "answers": {
+        "a": "A non-coding region of a gene",
+        "b": "A coding region of a gene",
+        "c": "A type of RNA",
+        "d": "A type of DNA polymerase"
       },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What is the primary goal of genome sequencing?",
+      "answers": {
+        "a": "To determine the entire DNA sequence of an organism",
+        "b": "To amplify specific genes",
+        "c": "To clone genes into plasmids",
+        "d": "To mutate specific genes"
+      },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "4. In eukaryotic cells, where is the genome primarily located?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Cytoplasm",
+        "b": "Mitochondria",
+        "c": "Nucleus",
+        "d": "Ribosome"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "5. Which field of study combines biology, computer science, and statistics to analyze genomic data?",
+      "answers": {
+        "a": "Biophysics",
+        "b": "Bioinformatics",
+        "c": "Pharmacology",
+        "d": "Epidemiology"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
+
   ]
 }
