@@ -42,11 +42,11 @@
       "answers": {
         "a": "<i>Oryzae sativa</i>",
         "b": "<i>Vigna unguiculata</i>",
-        "c": "<i>Zea mays</i>",
+        "c": "<i>Arabidopsis thaliana</i>",
         "d": "<i>Solanum lycopersicum</i>"
       },
       
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
